@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-RUN apk -U --no-cache add py3-flask
+RUN apk -U --no-cache add py3-pip py3-flask
 
 WORKDIR /runtime/app
 
